@@ -53,7 +53,7 @@ const mockStorage = [
 ];
 const MacBooks = () => {
   return (
-    <main>
+    <main className='main-content'>
       {mockStorage.map((item) => (
         <MacBookSingleItem
           title={item.title}
