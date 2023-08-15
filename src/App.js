@@ -1,7 +1,12 @@
 import './App.css';
+import MacBooks from './components/MacBooks';
 
 function App() {
-  return <div className='app'></div>;
+  return (
+    <div className='app'>
+      <MacBooks />
+    </div>
+  );
 }
 
 export default App;
