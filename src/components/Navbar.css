@@ -1,0 +1,17 @@
+.main-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.ul-wrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.main-nav li {
+  color: lightskyblue;
+  list-style: none;
+  text-decoration: underline;
+  font-size: 24px;
+  font-weight: bold;
+}
