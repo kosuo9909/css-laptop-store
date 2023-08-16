@@ -1,0 +1,15 @@
+.app-wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 2;
+  border: 2px solid black;
+  max-width: 1200px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.main-aside-group {
+  margin: 0 auto;
+  display: flex;
+}
