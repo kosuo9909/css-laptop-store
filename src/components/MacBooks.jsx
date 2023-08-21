@@ -53,9 +53,10 @@ const mockStorage = [
 ];
 const MacBooks = () => {
   return (
-    <main className="main-content">
-      {mockStorage.map((item) => (
+    <main className='main-content'>
+      {mockStorage.map((item, index) => (
         <MacBookSingleItem
+          key={index}
           title={item.title}
           img={item.img}
           price={item.price}
