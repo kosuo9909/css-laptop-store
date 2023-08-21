@@ -1,5 +1,5 @@
 import MacBookSingleItem from './MacBookSingleItem';
-import './MacBooks.css';
+import './MacBooks.scss';
 
 const mockStorage = [
   {
@@ -53,7 +53,7 @@ const mockStorage = [
 ];
 const MacBooks = () => {
   return (
-    <main className='main-content'>
+    <main className="main-content">
       {mockStorage.map((item) => (
         <MacBookSingleItem
           title={item.title}

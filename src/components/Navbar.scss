@@ -1,0 +1,23 @@
+@use '../sassStyles/variables' as *;
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+
+    .ul-wrapper {
+        display: flex;
+        gap: 5px;
+      }
+
+      li {
+        color: $nav-color;
+        list-style: none;
+        text-decoration: underline;
+        font-size: 24px;
+        font-weight: bold;  
+
+        &:hover {
+          cursor: pointer;
+        }
+  }
+}

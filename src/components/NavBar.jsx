@@ -1,8 +1,8 @@
-import './Navbar.css';
+import './Navbar.scss';
 const NavBar = () => {
   return (
-    <nav className='main-nav'>
-      <ul className='ul-wrapper'>
+    <nav className="main-nav">
+      <ul className="ul-wrapper">
         <li>Apple</li>
         <li>Toshiba</li>
         <li>Lenovo</li>
