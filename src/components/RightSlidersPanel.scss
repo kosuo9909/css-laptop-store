@@ -10,13 +10,14 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    min-width: 165px;
 
     label {
       font-size: 18px;
     }
 
     input {
-      width: 150px;
+      max-width: 150px;
     }
   }
 }
