@@ -33,7 +33,11 @@ section {
       gap: 20px;
 
       span {
-        min-width: 81px;
+        display: inline-block;
+        max-width: 300px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
     }
   }
