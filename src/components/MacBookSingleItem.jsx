@@ -10,7 +10,9 @@ const MacBookSingleItem = ({ title, img, price, storage, ram, processor }) => {
         </div>
         <div className='laptop-details-wrapper'>
           <span>{storage}</span>
-          <span>{ram}sssssssssssssssssssssssaaaaaaaaaaaaaaaaa</span>
+          <span>
+            {ram}sssssssssssssssssssssssaaaaaaaaaaaaaaaaa99999999999999999
+          </span>
           <span>{processor}</span>
         </div>
       </fieldset>
